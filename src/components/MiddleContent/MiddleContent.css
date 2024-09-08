@@ -1,0 +1,431 @@
+/* Home Cities Rome */
+.middle-content-main-container {
+  width: 1366px;
+  background-color: #fff;
+  display: flex;
+}
+
+.home-cities-rome-text {
+  position: absolute;
+  width: 134px;
+  height: 14px;
+  left: 58px;
+  top: 900px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #b9b9b9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.home-cities-rome-text span {
+  color: #484848;
+}
+
+.orange-circle {
+  /* Ellipse 1 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 11.76px;
+  height: 11.76px;
+  left: 60.77px;
+  top: 988.32px;
+
+  border: 1px solid #ff8924;
+  border-radius: 50%;
+}
+.glance-text {
+  /* At a Glance */
+
+  position: absolute;
+  width: 111px;
+  height: 24px;
+  left: 82.6px;
+  top: 962.7px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #ff8924;
+}
+.first-ul li {
+  /* Transportation in Rome */
+  position: absolute;
+  width: 160px;
+  height: 14px;
+  left: 73px;
+  /* top: 1100px; */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #898989;
+}
+.li1 {
+  position: absolute;
+  top: 1040px;
+}
+.li2 {
+  position: absolute;
+  top: 1080px;
+}
+.li3 {
+  position: absolute;
+  top: 1120px;
+}
+.p1 {
+  /* Nestled in the heart of Italian Peninsula, Rome is the capital of the country and one of the most populated cities in Italy. From its rich architecture to rare artefacts, this city is known to possess a history like none other. The picturesque atmosphere, the cold wind blowing and the serene atmosphere is what makes Rome a must visit place for all the travel fanatics out there. */
+
+  position: absolute;
+  width: 924.93px;
+  height: 93.76px;
+  left: 350.8px;
+  top: 976px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 159.5%;
+  /* or 26px */
+  letter-spacing: 0.06em;
+
+  color: #484848;
+}
+.p2 {
+  /* A perfect blend of gothic ruins, jaw dropping art and lively nights, Rome sets an exemplary example for a place about how it should entertain its travellers. The city wholeheartedly welcomes travellers from a wide array of interests, from awe inspiring monuments to living life at its best, Rome will never fail to surprise you with a new place to explore. */
+
+  position: absolute;
+  width: 504.97px;
+  height: 136.58px;
+  left: 350.8px;
+  top: 1100.6px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 159.5%;
+  /* or 26px */
+  letter-spacing: 0.06em;
+
+  color: #484848;
+}
+.p3 {
+  /* A perfect blend of gothic ruins, jaw dropping art and lively nights, Rome sets an exemplary example for a place about how it should entertain its travellers. The city wholeheartedly welcomes travellers from a wide array of interests, from awe */
+
+  position: absolute;
+  width: 504.97px;
+  height: 121.02px;
+  left: 350.8px;
+  top: 1282.78px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 159.5%;
+  /* or 26px */
+  letter-spacing: 0.06em;
+
+  color: #484848;
+}
+.p4 {
+  /* inspiring monuments to living life at its best, Rome will never fail to surprise you with a new place to explore. */
+
+  position: absolute;
+  width: 914.41px;
+  height: 24.75px;
+  left: 350.8px;
+  top: 1388.12px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 159.5%;
+  /* or 26px */
+  letter-spacing: 0.06em;
+
+  color: #484848;
+}
+.p5 {
+  /* The Roman Empire has been an icon when it comes to historical importance. The Roman Empire had cut the ribbons when Augustus Caesar announced to be the first emperor of Rome in 31BC and ended with the fall of Constantinople in 1453CE. Known to be the centre of the Roman Empire, Rome attracts the majority of the crowd due to its rich history and politics. */
+
+  position: absolute;
+  width: 914.41px;
+  height: 100.7px;
+  left: 350.8px;
+  top: 1439.15px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 159.5%;
+  /* or 26px */
+  letter-spacing: 0.06em;
+
+  color: #484848;
+}
+.p6 {
+  /* Referred to as ‘An Eternal City’ in the beginning of the history, Rome is seen to be a dream for music lovers due to the Parco Della Musica which is known to be one of the largest music venues in the world. Not only music, Rome has also set itself in the most wanted places to visit in the world and is the third most visited places in the entire Europe. This place has experienced arts from different periods and became a home for some of the most renowned artists such as Borromini, Bernini, Carracci and Cortona. */
+
+  position: absolute;
+  width: 478.11px;
+  height: 272.92px;
+  left: 787.11px;
+  top: 1573.65px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 159.5%;
+  /* or 26px */
+  letter-spacing: 0.06em;
+
+  color: #484848;
+}
+.p7 {
+  /* Embracing the ancient art, Rome has now decided to use its innovation to give birth to contemporary art to keep enhancing their love for art and architecture, National Museum of the 21st Century Arts is a live example of that. The Italian cuisine has somehow managed to be a king of all cuisines, from the Carciofi alla romana to the Spaghetti alla carbonara- Delicious spaghetti topped with bacon, smokey eggs and pecorino is what makes it mouth watering. Rome has a series of reasons to attract you and slip you into its warm arms to rejuvenate your soul with its authentic art, awe-inspiring architecture and mouth-watering food. */
+
+  position: absolute;
+  width: 914.41px;
+  height: 197.88px;
+  left: 350.8px;
+  top: 1875.84px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 159.5%;
+  /* or 26px */
+  letter-spacing: 0.06em;
+
+  color: #484848;
+}
+.img1 {
+  /* Group 143 */
+
+  position: absolute;
+  width: 375px;
+  height: 250px;
+  left: 356.8px;
+  top: 1578.53px;
+}
+.img2 {
+  /* Group 144 */
+
+  position: absolute;
+  width: 375px;
+  height: 250px;
+  left: 911.75px;
+  top: 1074.27px;
+}
+.p8 {
+  /* Rome Civitavecchia */
+
+  position: absolute;
+  width: 112px;
+  height: 14px;
+  left: 911.75px;
+  top: 1331.78px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #737373;
+}
+.p9 {
+  /* Image by Alejandro Picasso */
+
+  position: absolute;
+  width: 121px;
+  height: 12px;
+  left: 1041.57px;
+  top: 1333.78px;
+
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #898989;
+}
+.line-p10 {
+  /* | */
+
+  position: absolute;
+  width: 3px;
+  height: 12px;
+  left: 1032px;
+  top: 1332.77px;
+
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #737373;
+}
+.p11 {
+  /* Image by VIA DEI MONTI PARIOLI */
+
+  position: absolute;
+  width: 153px;
+  height: 12px;
+  left: 356.8px;
+  top: 1836.58px;
+
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #898989;
+}
+.p11 span {
+  color: rgb(19, 102, 255);
+}
+.p12 {
+  /* Line 89 */
+
+  position: absolute;
+  width: 95.51px;
+  height: 0px;
+  left: 352.54px;
+  top: 2083.31px;
+
+  border: 0.5px solid #b9b9b9;
+}
+.p13 {
+  /* Other cities */
+
+  position: absolute;
+  width: 164px;
+  height: 34px;
+  left: 67px;
+  top: 2167.64px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #484848;
+}
+.g1 {
+  /* Florance */
+
+  position: absolute;
+  width: 272.48px;
+  height: 151.78px;
+  left: 78.32px;
+  top: 2259.33px;
+}
+.g2 {
+  /* Florance */
+
+  position: absolute;
+  width: 272.48px;
+  height: 151.78px;
+  left: 378.32px;
+  top: 2259.33px;
+}
+.g3 {
+  /* Naples */
+
+  position: absolute;
+  width: 272.48px;
+  height: 151.78px;
+  left: 684.7px;
+  top: 2259.33px;
+}
+.g4 {
+  /* Florance */
+
+  position: absolute;
+  width: 272.48px;
+  height: 151.78px;
+  left: 984.7px;
+  top: 2259.33px;
+}
+.g5 {
+  /* Napples */
+
+  position: absolute;
+  width: 272.48px;
+  height: 151.78px;
+  left: 78.32px;
+  top: 2440.33px;
+}
+.g6 {
+  /* Florence */
+
+  position: absolute;
+  width: 272.48px;
+  height: 151.78px;
+  left: 378.32px;
+  top: 2440.33px;
+}
+.g7 {
+  /* Napples */
+
+  position: absolute;
+  width: 272.48px;
+  height: 151.78px;
+  left: 684.7px;
+  top: 2440.33px;
+}
+.g8 {
+  /* Florance */
+
+  position: absolute;
+  width: 272.48px;
+  height: 151.78px;
+  left: 984.7px;
+  top: 2440.33px;
+}

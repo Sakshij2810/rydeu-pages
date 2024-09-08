@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  overflow-x: hidden;
+}
+.city-page-main-container {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 3667px;
+  background-color: black;
+}
+.city-page-container {
+  width: 1366px;
+  /* height: 3667px; */
+  position: relative;
+  background-color: #fff;
+
+  /* position: relative; */
+}
+.bg-img-container {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.bg-img-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1366px;
+  height: 485px;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.bg-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.header-container-city {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+.logos-section {
+  /* Rectangle 973 */
+
+  position: absolute;
+  width: 1366px;
+  height: 133px;
+  left: 0px;
+  top: 699px;
+
+  background: #efefef;
+}
+.white-div {
+  background-color: white;
+  position: absolute;
+  top: 485px;
+  width: 1366px;
+  height: 214px;
+}
+.logo-svg-1 {
+  /* Group 693 */
+
+  position: absolute;
+  width: 43.05px;
+  height: 39px;
+  left: 174px;
+  top: 30px;
+}
+.pay-later-text {
+  /* Book & pay later */
+
+  position: absolute;
+  width: 100%;
+  height: 16px;
+  left: 140px;
+  top: 70px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #484848;
+}
+.line-1-logo {
+  /* Line 166 */
+
+  position: absolute;
+  width: 76px;
+  height: 0px;
+  left: 300px;
+  top: 70px;
+
+  border: 0.2px solid #dbdbdb;
+  transform: rotate(90deg);
+}
+.logo-svg-2 {
+  /* Group */
+
+  position: absolute;
+  left: 35.94%;
+  right: 60.97%;
+  top: 19.9%;
+  bottom: 79%;
+}
+.amendments-trip-text {
+  /* Flexible trip amendments */
+
+  position: absolute;
+  width: 164px;
+  height: 16px;
+  left: 430px;
+  top: 70px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #484848;
+}
+.line-2-logo {
+  /* Line 166 */
+
+  position: absolute;
+  width: 76px;
+  height: 0px;
+  left: 627px;
+  top: 70px;
+
+  border: 0.2px solid #dbdbdb;
+  transform: rotate(90deg);
+}
+.cancellation-free-text {
+  /* Free cancellation */
+
+  position: absolute;
+  width: 111px;
+  height: 16px;
+  left: 775px;
+  top: 70px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #484848;
+}
+.logo-svg-3 {
+  /* Group */
+
+  position: absolute;
+  left: 812px;
+  right: 60.97%;
+  top: 19.9%;
+  bottom: 79%;
+}
+.person-support-text {
+  /* 24/7 in-person support */
+
+  position: absolute;
+  width: 149px;
+  height: 19px;
+  left: 1074px;
+  top: 70px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #484848;
+}
+.line-3-logo {
+  /* Line 166 */
+
+  position: absolute;
+  width: 76px;
+  height: 0px;
+  left: 950px;
+  top: 70px;
+
+  border: 0.2px solid #dbdbdb;
+  transform: rotate(90deg);
+}
+.logo-svg-4 {
+  /* Group */
+
+  position: absolute;
+  left: 82.58%;
+  right: 14.52%;
+  top: 19.92%;
+  bottom: 79%;
+}
+.middle-content-container-city {
+  background-color: white;
+
+  width: 1366px;
+  height: 235%;
+}
+.footer-container {
+  width: 1366px;
+  height: 419.48px;
+  background-color: #161616;
+}
+.white-section-2 {
+  position: absolute;
+  width: 1366px;
+  top: 3068px;
+  height: 600px;
+  background-color: white;
+}

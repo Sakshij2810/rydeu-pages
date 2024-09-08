@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.booking-form-main-container {
+  width: 430px;
+  height: 491px;
+  border-radius: 7px;
+}
+
+/* Rectangle 737 */
+.Rectangle-737 {
+  position: absolute;
+  width: 430px;
+  height: 54px;
+  left: 0px;
+  top: 0px;
+
+  background: #f4f4f4;
+  border-radius: 6px;
+}
+
+/* Rectangle 738 */
+.Rectangle-738 {
+  position: absolute;
+  width: 136px;
+  height: 46px;
+  left: 4px;
+  top: 4px;
+
+  background: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* One way */
+.one-way {
+  width: 71px;
+  height: 15px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+
+  color: #ff2d5c;
+}
+
+/* Round Trip */
+.round-trip {
+  position: absolute;
+  width: 100px;
+  height: 17px;
+  left: 173px;
+  top: 3px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  letter-spacing: 0.04em;
+
+  color: #484848;
+}
+.hourly {
+  /* Hourly */
+
+  position: absolute;
+  width: 50px;
+  height: 15px;
+  left: 332px;
+  top: 3px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+
+  color: #484848;
+}
+
+/* Line 153 */
+.Line-153 {
+  position: absolute;
+  width: 395px;
+  height: 0px;
+  left: 18px;
+  top: 109px;
+
+  border: 0.5px solid #ededed;
+}
+/* Line 155 */
+.Line-155 {
+  position: absolute;
+  width: 395px;
+  height: 0px;
+  left: 18px;
+  top: 164px;
+
+  border: 0.5px solid #ededed;
+}
+
+/* Line 150 */
+.Line-150 {
+  position: absolute;
+  width: 191px;
+  height: 0px;
+  left: 16px;
+  top: 219px;
+
+  border: 0.5px solid #ededed;
+}
+
+/* Line 156 */
+.Line-156 {
+  position: absolute;
+  width: 190px;
+  height: 0px;
+  left: 223px;
+  top: 219px;
+
+  border: 0.5px solid #ededed;
+}
+
+/* Line 157 */
+.Line-157 {
+  position: absolute;
+  width: 397px;
+  height: 0px;
+  left: 16px;
+  top: 274px;
+
+  border: 0.5px solid #ededed;
+}
+
+/* Line 159 */
+.Line-159 {
+  position: absolute;
+  width: 396px;
+  height: 0px;
+  left: 17px;
+  top: 329px;
+
+  border: 0.5px solid #ededed;
+}
+
+/* Line 161 */
+.Line-161 {
+  position: absolute;
+  width: 396px;
+  height: 0px;
+  left: 17px;
+  top: 384px;
+
+  border: 0.5px solid #ededed;
+}
+
+/* From (airport, hotel, address) */
+.from-text {
+  position: absolute;
+  width: 100%;
+  height: 17px;
+  left: 28px;
+  top: 60px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+
+  color: #777777;
+}
+.from-text span {
+  font-weight: 500;
+  color: #c1c1c1;
+}
+
+/* To (airport, hotel, address) */
+.to-text {
+  position: absolute;
+  width: 100%;
+  height: 17px;
+  left: 28px;
+  top: 115px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+
+  color: #777777;
+}
+.to-text span {
+  font-weight: 500;
+  color: #c1c1c1;
+}
+/* Group 633 */
+.arrow-svg {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 365px;
+  top: 96px;
+}
+/* Calander */
+.calender-svg {
+  position: absolute;
+  left: 6.05%;
+  right: 89.24%;
+  top: 36.86%;
+  bottom: 58.97%;
+}
+/* Pickup Date */
+.pickup-date {
+  position: absolute;
+  width: 100%;
+  height: 17px;
+  left: 64px;
+  top: 170px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #c1c1c1;
+}
+/* Calander 2 */
+.calender-svg-2 {
+  position: absolute;
+  left: 56.28%;
+  right: 39.01%;
+  top: 36.86%;
+  bottom: 58.97%;
+}
+.pickup-time {
+  /* Pickup Time */
+
+  position: absolute;
+  width: 100%;
+  height: 17px;
+  left: 278px;
+  top: 170px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #c1c1c1;
+}
+/* passenger 2 */
+.passengers-2 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 26px;
+  top: 235px;
+}
+/* Add Passenger & Baggage */
+.passengers-text {
+  position: absolute;
+  width: 100%;
+  height: 17px;
+  left: 64px;
+  top: 225px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #c1c1c1;
+}
+
+.down-svg-arrow {
+  position: absolute;
+  width: 12px;
+  height: 6px;
+  right: 34px;
+  top: 235px;
+  color: #848484;
+}
+/* email (5) 1 */
+.email-svg {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 26px;
+  top: 289px;
+}
+.email-text {
+  position: absolute;
+  width: 41px;
+  height: 17px;
+  left: 64px;
+  top: 280px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #c1c1c1;
+}
+/* Group 261 */
+.america-flg-svg {
+  position: absolute;
+  width: 28px;
+  height: 14.88px;
+  left: 26px;
+  top: 349px;
+  /* Image: the-united-kingdom-flag-vector-free-download; */
+  background: url("../../assets/flag.png");
+  background-size: cover;
+  /* the-united-kingdom-flag-vector-free-download 3 */
+}
+
+.arrow-america {
+  position: absolute;
+  width: 6px;
+  height: 3px;
+  left: 35px;
+  top: -8px;
+
+  color: #848484;
+}
+/* Phone Number */
+.phone-text {
+  position: absolute;
+  width: 100%;
+  height: 17px;
+  left: 85px;
+  top: 333px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #c1c1c1;
+}
+/* Additional Requirements */
+.additional-text {
+  position: absolute;
+  width: 175px;
+  height: 18px;
+  left: 47px;
+  top: 392px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+
+  color: #484848;
+}
+/* Rectangle 949 */
+.rectangle-shape {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  left: 27px;
+  top: 404px;
+
+  border: 1.2px solid #484848;
+  border-radius: 2px;
+}
+/* Rectangle 14 */
+.Rectangle-14 {
+  position: absolute;
+  width: 422px;
+  height: 46px;
+  left: 4px;
+  top: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff2d5c;
+  border-radius: 6px;
+}
+/* Search */
+.search {
+  width: 57px;
+  height: 22px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
