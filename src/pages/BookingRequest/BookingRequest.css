@@ -19,7 +19,7 @@
   position: absolute;
   width: 28px;
   height: 28px;
-  left: 1200px;
+  left: 1240px;
   top: 44px;
   border-radius: 50%;
   background: #004a85;
@@ -30,7 +30,7 @@
   position: absolute;
   width: 9px;
   height: 14px;
-  left: 1209px;
+  left: 1250px;
   top: 40px;
 
   font-family: "Lato";
@@ -48,7 +48,7 @@
   position: absolute;
   width: 53px;
   height: 13px;
-  left: 1240px;
+  left: 1280px;
   top: 40px;
 
   font-family: "Lato";
@@ -64,7 +64,7 @@
   /* Vector */
 
   position: absolute;
-  right: 130px;
+  right: 90px;
 
   top: 6.8%;
 
@@ -104,7 +104,7 @@
   position: absolute;
   top: 120px;
   left: 150px;
-  width: 1160px;
+  width: 1200px;
   height: 645px;
   background-color: white;
 }

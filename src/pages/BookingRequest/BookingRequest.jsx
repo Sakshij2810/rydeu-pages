@@ -3,6 +3,7 @@ import "./BookingRequest.css";
 import React from "react";
 
 import Vector from "../../assets/Vector.png";
+import MiddleComponent from "../../components/BookingComponents/MiddleComponent/MiddleComponent";
 
 const BookingRequest = () => {
   return (
@@ -45,7 +46,9 @@ const BookingRequest = () => {
               <p className="requests-text">Requests</p>
             </div>
           </div>
-          <div className="middle-booking-container"></div>
+          <div className="middle-booking-container">
+            <MiddleComponent />
+          </div>
         </div>
       </div>
     </div>

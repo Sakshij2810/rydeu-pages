@@ -1,0 +1,960 @@
+.middle-component-main-container {
+  /* position: relative; */
+  z-index: 100;
+}
+
+.x-line {
+  /* Line 6 */
+
+  position: absolute;
+  width: 1097.48px;
+  height: 0px;
+  left: 45px;
+  top: 75px;
+}
+.offer-text {
+  /* Offer Ancillary */
+
+  position: absolute;
+  width: 94.71px;
+  height: 16px;
+  left: 45px;
+  top: 100px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+.g133 {
+  /* Group 133 */
+
+  position: absolute;
+  width: 74.11px;
+  height: 74.11px;
+  left: 58px;
+  top: 143px;
+}
+.ppp1 {
+  /* Porter Service */
+
+  position: absolute;
+  width: 81.15px;
+  height: 15.98px;
+  left: 60px;
+  top: 215px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.5px;
+  line-height: 13px;
+
+  color: #484848;
+}
+.g127 {
+  /* Group 127 */
+
+  position: absolute;
+  width: 74.11px;
+  height: 74.11px;
+  left: 190px;
+  top: 143px;
+}
+.ppp2 {
+  /* Wifi */
+
+  position: absolute;
+  width: 24.59px;
+  height: 15.98px;
+  left: 215px;
+  top: 215px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.5px;
+  line-height: 13px;
+
+  color: #484848;
+}
+
+.g134 {
+  /* Group 134 */
+
+  position: absolute;
+  width: 74.11px;
+  height: 74.11px;
+  left: 330px;
+  top: 143px;
+}
+.ppp3 {
+  /* Child Seat */
+
+  position: absolute;
+  width: 57.79px;
+  height: 15.98px;
+  left: 345px;
+  top: 215px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.5px;
+  line-height: 13px;
+
+  color: #484848;
+}
+
+.g129 {
+  /* Group 129 */
+
+  position: absolute;
+  width: 74.11px;
+  height: 74.11px;
+  left: 470px;
+  top: 143px;
+}
+.ppp4 {
+  /* Wheel Chair */
+
+  position: absolute;
+  width: 100%;
+  height: 15.98px;
+  left: 480px;
+  top: 215px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.5px;
+  line-height: 13px;
+
+  color: #484848;
+}
+.g130 {
+  /* Group 130 */
+
+  position: absolute;
+  width: 74.11px;
+  height: 74.11px;
+  left: 600px;
+  top: 143px;
+}
+.ppp5 {
+  /* Meet & greet */
+
+  position: absolute;
+  width: 100%;
+  height: 15.98px;
+  left: 610px;
+  top: 215px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.5px;
+  line-height: 13px;
+
+  color: #484848;
+}
+.g131-1 {
+  /* Ellipse 100 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 74.11px;
+  height: 74.11px;
+  left: 725px;
+  top: 143px;
+
+  border-radius: 8px;
+}
+.g131-2 {
+  /* Group */
+
+  position: absolute;
+  left: 755px;
+  top: 170px;
+}
+.ppp6 {
+  /* Bottled Water */
+
+  position: absolute;
+  width: 100%;
+  height: 15.98px;
+  left: 730px;
+  top: 215px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.5px;
+  line-height: 13px;
+
+  color: #484848;
+}
+.g132 {
+  /* Group 132 */
+
+  position: absolute;
+  width: 74.11px;
+  height: 74.11px;
+  left: 845px;
+  top: 143px;
+}
+.ppp7 {
+  /* Phone Charger */
+
+  position: absolute;
+  width: 100%;
+  height: 15.98px;
+  left: 850px;
+  top: 215px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.5px;
+  line-height: 13px;
+
+  color: #484848;
+}
+.x2-line {
+  position: absolute;
+  width: 1097.48px;
+  height: 0px;
+  left: 45px;
+  top: 255px;
+}
+
+.submit-button {
+  /* Rectangle 10 */
+
+  position: absolute;
+  width: 133px;
+  height: 37px;
+  left: 550px;
+  top: 620px;
+  z-index: 99;
+  background: #ff2d5c;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit-booking {
+  /* Submit */
+
+  width: 51px;
+  height: 19px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.015em;
+
+  color: #ffffff;
+}
+.offer-price-text {
+  /* Offer Price */
+
+  position: absolute;
+  width: 81.27px;
+  height: 16px;
+  left: 45px;
+  top: 286px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+.type-text {
+  /* Type of booking */
+
+  position: absolute;
+  width: 90px;
+  height: 16px;
+  left: 55px;
+  top: 322px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+.pre-text {
+  /* Pre-Payment */
+
+  position: absolute;
+  width: 81.27px;
+  height: 16px;
+  left: 550px;
+  top: 322px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+.payment-text {
+  /* Payment on Pickup */
+
+  position: absolute;
+  width: 119px;
+  height: 16px;
+  left: 880px;
+  top: 322px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+.x3-line {
+  /* Line 8 */
+
+  position: absolute;
+  width: 180px;
+  height: 0px;
+  left: 495px;
+  top: 350px;
+
+  /* border: 1.5px solid #efefef;
+  transform: rotate(90.17deg); */
+}
+.top-divb1 {
+  /* Rectangle 86 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 341px;
+  height: 44px;
+  left: 60px;
+  top: 360px;
+  z-index: 100;
+  background: #f3f3f3;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+}
+.bottom-divb1 {
+  /* Rectangle 878 */
+
+  position: absolute;
+  width: 339px;
+  height: 152px;
+  left: 61px;
+  top: 394px;
+  z-index: 99;
+  background: #fefefe;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+}
+.divb22 {
+  /* Rectangle 262 */
+
+  position: absolute;
+  width: 287px;
+  height: 140px;
+  left: 550px;
+  top: 360px;
+
+  background: #ecf4fc;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.divb33 {
+  /* Rectangle 879 */
+
+  position: absolute;
+  width: 287px;
+  height: 140px;
+  left: 880px;
+  top: 360px;
+
+  background: #ecf4fc;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.i-logo {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 550px;
+  top: 515px;
+}
+.i2-logo {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 880px;
+  top: 515px;
+}
+.customer1-text {
+  /* Customer pays the full amount on the website while booking. */
+
+  position: absolute;
+  width: 261px;
+  height: 34px;
+  left: 576px;
+  top: 505px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 142%;
+  /* or 17px */
+  letter-spacing: 0.04em;
+
+  color: #726f6f;
+}
+.customer-text {
+  /* Customer pays only the commission amount on the website to reserve the booking. Balance amount is paid to the driver during pickup. */
+
+  position: absolute;
+  width: 261px;
+  height: 68px;
+  left: 905px;
+  top: 505px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 142%;
+  /* or 17px */
+  letter-spacing: 0.04em;
+
+  color: #726f6f;
+}
+.pppp1 {
+  /* Offer Available untill */
+
+  position: absolute;
+  width: 130px;
+  height: 16px;
+  left: 60px;
+  top: 545px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+.pppp2 {
+  /* 10th May, 19:00 */
+
+  position: absolute;
+  width: 130px;
+  height: 16px;
+  left: 200px;
+  top: 545px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+.p11 {
+  /* Both */
+
+  position: absolute;
+  width: 230.61px;
+  height: 17px;
+  left: -25px;
+  top: 360px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 130%;
+  /* identical to box height, or 17px */
+  letter-spacing: 0.04em;
+
+  color: #484848;
+  z-index: 999;
+}
+.arrow-123 {
+  /* Vector */
+  z-index: 999;
+  position: absolute;
+  left: 370px;
+
+  top: 370px;
+}
+.p222 {
+  /* Pre-Payment (Full amount paid on the website) */
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  height: 17px;
+  left: 75px;
+  top: 410px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 130%;
+  /* identical to box height, or 17px */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+.p222 span {
+  z-index: 999;
+  color: #716f6f;
+  font-size: 11px;
+  font-weight: 400;
+}
+.p33 {
+  /* Pre-Payment (Full amount paid on the website) */
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  height: 17px;
+  left: 75px;
+  top: 450px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 130%;
+  /* identical to box height, or 17px */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+.p33 span {
+  z-index: 999;
+  color: #716f6f;
+  font-size: 11px;
+  font-weight: 400;
+}
+.both-text-1 {
+  /* Both */
+  z-index: 999;
+  position: absolute;
+  width: 30px;
+  height: 17px;
+  left: 75px;
+  top: 490px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 130%;
+  /* identical to box height, or 17px */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+
+.pp11 {
+  /* You Get */
+
+  position: absolute;
+  width: 100%;
+  height: 16px;
+  left: 574px;
+  top: 369px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+.pp22 {
+  /* Rydeu Commission 15% */
+
+  position: absolute;
+  width: 138px;
+  height: 16px;
+  left: 574px;
+  top: 394px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+.pp33 {
+  /* Total Offer Price */
+
+  position: absolute;
+  width: 97px;
+  height: 16px;
+  left: 574px;
+  top: 452px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+.pp44 {
+  /* 425 */
+
+  position: absolute;
+  width: 29px;
+  height: 21px;
+  left: 778px;
+  top: 366px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+  letter-spacing: 0.04em;
+
+  color: #484848;
+}
+.pp55 {
+  /* 75 */
+
+  position: absolute;
+  width: 19px;
+  height: 21px;
+  left: 778px;
+  top: 391px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+  letter-spacing: 0.04em;
+
+  color: #484848;
+}
+.pp66 {
+  /* 500 */
+
+  position: absolute;
+  width: 33px;
+  height: 23px;
+  left: 778px;
+  top: 448px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  letter-spacing: 0.04em;
+
+  color: #33b20c;
+}
+.pp77 {
+  /* ‎€ */
+
+  position: absolute;
+  width: 11.51px;
+  height: 19px;
+  left: 762px;
+  top: 367px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 130%;
+  /* or 19px */
+  letter-spacing: 0.04em;
+
+  color: #484848;
+}
+.pp88 {
+  /* ‎€ */
+
+  position: absolute;
+  width: 11.51px;
+  height: 19px;
+  left: 762px;
+  top: 392px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 130%;
+  /* or 19px */
+  letter-spacing: 0.04em;
+
+  color: #484848;
+}
+.pp99 {
+  /* ‎€ */
+
+  position: absolute;
+  width: 11.51px;
+  height: 23px;
+  left: 762px;
+  top: 448.08px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  letter-spacing: 0.04em;
+
+  color: #33b20c;
+}
+.line1234 {
+  /* Line 10 */
+
+  position: absolute;
+  width: 256px;
+  height: 0px;
+  left: 570px;
+  top: 433px;
+
+  /* border: 1px solid #e0e3e8;
+  transform: rotate(180deg); */
+}
+.line12345 {
+  position: absolute;
+  width: 256px;
+  height: 0px;
+  left: 895px;
+  top: 433px;
+}
+
+.ppp11 {
+  /* You Get */
+
+  position: absolute;
+  width: 100%;
+  height: 16px;
+  left: 905px;
+  top: 369px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+.ppp22 {
+  /* Rydeu Commission 15% */
+
+  position: absolute;
+  width: 100%;
+  height: 16px;
+  left: 905px;
+  top: 394px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+.ppp33 {
+  /* Total Offer Price */
+
+  position: absolute;
+  width: 100%;
+  height: 16px;
+  left: 905px;
+  top: 452px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+.ppp44 {
+  /* 425 */
+
+  position: absolute;
+  width: 29px;
+  height: 21px;
+  left: 1109px;
+  top: 366px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+  letter-spacing: 0.04em;
+
+  color: #484848;
+}
+.ppp55 {
+  /* 75 */
+
+  position: absolute;
+  width: 19px;
+  height: 21px;
+  left: 1109px;
+  top: 391px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+  letter-spacing: 0.04em;
+
+  color: #484848;
+}
+.ppp66 {
+  /* 500 */
+
+  position: absolute;
+  width: 33px;
+  height: 23px;
+  left: 1109px;
+  top: 448px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  letter-spacing: 0.04em;
+
+  color: #33b20c;
+}
+.ppp77 {
+  /* ‎€ */
+
+  position: absolute;
+  width: 11.51px;
+  height: 19px;
+  left: 1093px;
+  top: 367px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 130%;
+  /* or 19px */
+  letter-spacing: 0.04em;
+
+  color: #484848;
+}
+.ppp88 {
+  /* ‎€ */
+
+  position: absolute;
+  width: 11.51px;
+  height: 19px;
+  left: 1093px;
+  top: 392px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 130%;
+  /* or 19px */
+  letter-spacing: 0.04em;
+
+  color: #484848;
+}
+.ppp99 {
+  /* ‎€ */
+
+  position: absolute;
+  width: 11.51px;
+  height: 23px;
+  left: 1093px;
+  top: 448.08px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  letter-spacing: 0.04em;
+
+  color: #33b20c;
+}
