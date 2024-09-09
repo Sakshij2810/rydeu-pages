@@ -50,7 +50,7 @@
   width: 472px;
   height: 117px;
   left: 202px;
-  top: 363px;
+  top: 333px;
 
   background: #ffffff;
   box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.21);
@@ -63,7 +63,7 @@
   width: 472px;
   height: 117px;
   left: 693px;
-  top: 363px;
+  top: 333px;
 
   background: #ffffff;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.12);
@@ -120,7 +120,7 @@
 
 .home-page-div-1 {
   /* Rectangle 943 */
-
+  z-index: 99;
   box-sizing: border-box;
 
   position: absolute;
@@ -136,7 +136,7 @@
 }
 .home-page-div-2 {
   /* Rectangle 945 */
-
+  z-index: 99;
   box-sizing: border-box;
 
   position: absolute;
@@ -152,7 +152,7 @@
 }
 .home-page-div-3 {
   /* Rectangle 944 */
-
+  z-index: 99;
   box-sizing: border-box;
 
   position: absolute;
@@ -258,4 +258,285 @@
   border: none;
   /* transform: rotate(89.63deg); */
   cursor: pointer;
+}
+.home-page-div-1-hide {
+  /* Rectangle 943 */
+  z-index: 100;
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 963px;
+  height: 217px;
+  left: 202px;
+  top: 490px;
+
+  background: #ffffff;
+  border: 1.4px solid #efefef;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 11px;
+}
+.home-page-div-2-hide {
+  /* Rectangle 945 */
+  z-index: 100;
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 963px;
+  height: 217px;
+  left: 202px;
+  top: 759px;
+
+  background: #ffffff;
+  border: 1.4px solid #efefef;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 11px;
+}
+
+.home-page-div-3-hide {
+  /* Rectangle 944 */
+  z-index: 100;
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 963px;
+  height: 467px;
+  left: 202px;
+  top: 1032px;
+
+  background: #ffffff;
+  border: 1.4px solid #efefef;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 11px;
+}
+.home-page-div-1-hide img {
+  /* Group */
+  width: 41px;
+  height: 35.53px;
+  position: absolute;
+  left: 45px;
+
+  top: 40px;
+}
+.home-page-div-2-hide img {
+  position: absolute;
+  left: 45px;
+
+  top: 40px;
+
+  width: 41px;
+  height: 37.81px;
+}
+
+.home-page-div-3-hide .v1 {
+  /* Group */
+
+  position: absolute;
+  left: 45px;
+
+  top: 55px;
+
+  width: 38px;
+  height: 24px;
+}
+.home-page-div-3-hide .v2 {
+  /* Vector */
+
+  position: absolute;
+  left: 55px;
+
+  top: 35px;
+
+  width: 16px;
+  height: 17px;
+}
+.logos-home-container .telegarm {
+  /* Group 609 */
+
+  position: absolute;
+  width: 60.68px;
+  height: 60.68px;
+  left: 310px;
+  top: 120px;
+}
+.logos-home-container .whatsapp {
+  /* Group 610 */
+
+  position: absolute;
+  width: 60.68px;
+  height: 60.68px;
+  left: 470px;
+  top: 120px;
+}
+.logos-home-container .chat {
+  /* integrations_freshchat 2 */
+
+  position: absolute;
+  width: 59px;
+  height: 61px;
+  left: 640px;
+  top: 120px;
+
+  background: url(integrations_freshchat.png);
+  filter: drop-shadow(2px 3px 6px rgba(0, 0, 0, 0.2));
+}
+.tele1 {
+  /* Telegram */
+
+  position: absolute;
+  width: 53px;
+  height: 13px;
+  left: 310px;
+  top: 170px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: #000000;
+}
+.whatsapp1 {
+  position: absolute;
+  width: 53px;
+  height: 13px;
+  left: 470px;
+  top: 170px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: #000000;
+}
+.chat1 {
+  position: absolute;
+  width: 53px;
+  height: 13px;
+  left: 640px;
+  top: 170px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: #000000;
+}
+.logos-home2-container .facebook {
+  /* 512px-Facebook_f_logo_(2019) 1 */
+
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 350px;
+  top: 130px;
+}
+.logos-home2-container .insta {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 450px;
+  top: 130px;
+}
+.logos-home2-container .twitter {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 550px;
+  top: 130px;
+}
+.logos-home2-container .linkedin {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 650px;
+  top: 130px;
+}
+.form-home-container form {
+  position: absolute;
+  left: 180px;
+  top: 135px;
+  width: 620px;
+  height: 300px;
+  /* background-color: red; */
+}
+.form-home-container .form-top-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.form-home-container .lable-conatiner {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-home-container form label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+
+  color: #484848;
+}
+.form-home-container form input {
+  /* Rectangle 142 */
+
+  box-sizing: border-box;
+
+  width: 294px;
+  height: 32px;
+
+  background: #f7f7f7;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+}
+.form-home-container form .long-input {
+  /* Rectangle 948 */
+
+  box-sizing: border-box;
+
+  width: 617px;
+  height: 72px;
+
+  background: #f7f7f7;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+}
+.form-bottom-div {
+  margin-top: 1.7rem;
+}
+.form-home-container form button {
+  /* Rectangle 875 */
+
+  width: 191px;
+  height: 33px;
+  margin-left: 200px;
+  margin-top: 30px;
+  background: #fd2e5a;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-home-container form button p {
+  /* Submit */
+
+  width: 61px;
+  height: 25px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 155.5%;
+  /* identical to box height, or 25px */
+
+  color: #ffffff;
 }

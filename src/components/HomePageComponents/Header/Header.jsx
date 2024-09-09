@@ -1,5 +1,5 @@
 import "./Header.css";
-import React from "react";
+import React, { useState } from "react";
 
 import R431 from "../../../assets/R431.png";
 import R423 from "../../../assets/R423.png";
@@ -9,9 +9,30 @@ import v2 from "../../../assets/v2.png";
 import g1 from "../../../assets/Group1.png";
 import g2 from "../../../assets/Group2.png";
 
+import telegram from "../../../assets/telegram.png";
+import whatsapp from "../../../assets/whatsapp.png";
+import chat from "../../../assets/i1.png";
+import facebook from "../../../assets/facebook.png";
+import insta from "../../../assets/insta.png";
+import twitter from "../../../assets/twitter.png";
+import linkedin from "../../../assets/linkedin.png";
+
 import Navbar from "./Navbar/Navbar";
 
 const Header = () => {
+  const [isVisible1, setIsVisible1] = useState(true);
+  const [isVisible2, setIsVisible2] = useState(true);
+  const [isVisible3, setIsVisible3] = useState(true);
+  // Toggle visibility when the arrow is clicked
+  const handleToggleVisibility1 = () => {
+    setIsVisible1(!isVisible1);
+  };
+  const handleToggleVisibility2 = () => {
+    setIsVisible2(!isVisible2);
+  };
+  const handleToggleVisibility3 = () => {
+    setIsVisible3(!isVisible3);
+  };
   return (
     <div className="home-header-main-container">
       <img src={R423} alt="r423" />
@@ -73,64 +94,199 @@ const Header = () => {
       </div>
 
       <div className="3-divs-home">
-        <div className="home-page-div-1">
-          <img className="g1" src={g1} alt="g1" />
-          <p className="chat-text">Chat</p>
-          <p className="loremd1">Lorem ipsum doolor sit amet</p>
-          <button className="arrow-home-svg">
-            <svg
-              width="16"
-              height="9"
-              viewBox="0 0 16 9"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+        {isVisible1 ? (
+          <div className="home-page-div-1">
+            <img className="g1" src={g1} alt="g1" />
+            <p className="chat-text">Chat</p>
+            <p className="loremd1">Lorem ipsum doolor sit amet</p>
+            <button
+              className="arrow-home-svg"
+              onClick={handleToggleVisibility1}
             >
-              <path
-                d="M7.30418 8.71165C7.69723 9.09963 8.33038 9.09551 8.71836 8.70245L15.0408 2.29721C15.4287 1.90415 15.4246 1.271 15.0316 0.883027C14.6385 0.495052 14.0054 0.499172 13.6174 0.892229L7.99746 6.58577L2.30392 0.96585C1.91086 0.577875 1.27771 0.581995 0.889736 0.975052C0.501761 1.36811 0.505881 2.00126 0.898938 2.38924L7.30418 8.71165ZM6.99367 6.00651L7.00669 8.00646L9.00665 7.99345L8.99363 5.99349L6.99367 6.00651Z"
-                fill="#777777"
-              />
-            </svg>
-          </button>
-        </div>
-        <div className="home-page-div-2">
-          <img className="g2" src={g2} alt="g2" />
-          <p className="chat-text">Social</p>
-          <p className="loremd1">Lorem ipsum doolor sit amet</p>
-          <button className="arrow-home-svg">
-            <svg
-              width="16"
-              height="9"
-              viewBox="0 0 16 9"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+              <svg
+                width="16"
+                height="9"
+                viewBox="0 0 16 9"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.30418 8.71165C7.69723 9.09963 8.33038 9.09551 8.71836 8.70245L15.0408 2.29721C15.4287 1.90415 15.4246 1.271 15.0316 0.883027C14.6385 0.495052 14.0054 0.499172 13.6174 0.892229L7.99746 6.58577L2.30392 0.96585C1.91086 0.577875 1.27771 0.581995 0.889736 0.975052C0.501761 1.36811 0.505881 2.00126 0.898938 2.38924L7.30418 8.71165ZM6.99367 6.00651L7.00669 8.00646L9.00665 7.99345L8.99363 5.99349L6.99367 6.00651Z"
+                  fill="#777777"
+                />
+              </svg>
+            </button>
+          </div>
+        ) : (
+          // Div content when hidden
+          <div className="home-page-div-1-hide">
+            <img className="g1" src={g1} alt="g1" />
+            <p className="chat-text">Chat</p>
+            <p className="loremd1">Lorem ipsum doolor sit amet</p>
+            <button
+              className="arrow-home-svg"
+              onClick={handleToggleVisibility1}
             >
-              <path
-                d="M7.30418 8.71165C7.69723 9.09963 8.33038 9.09551 8.71836 8.70245L15.0408 2.29721C15.4287 1.90415 15.4246 1.271 15.0316 0.883027C14.6385 0.495052 14.0054 0.499172 13.6174 0.892229L7.99746 6.58577L2.30392 0.96585C1.91086 0.577875 1.27771 0.581995 0.889736 0.975052C0.501761 1.36811 0.505881 2.00126 0.898938 2.38924L7.30418 8.71165ZM6.99367 6.00651L7.00669 8.00646L9.00665 7.99345L8.99363 5.99349L6.99367 6.00651Z"
-                fill="#777777"
-              />
-            </svg>
-          </button>
-        </div>
-        <div className="home-page-div-3">
-          <img className="v1" src={v1} alt="v1" />
-          <img className="v2" src={v2} alt="v2" />
-          <p className="chat-text">Send Query</p>
-          <p className="loremd1">Lorem ipsum doolor sit amet</p>
-          <button className="arrow-home-svg">
-            <svg
-              width="16"
-              height="9"
-              viewBox="0 0 16 9"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+              <svg
+                width="20"
+                height="12"
+                viewBox="0 0 20 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.8849 1.11612C10.3967 0.627961 9.60525 0.627961 9.11709 1.11612L1.16214 9.07107C0.673986 9.55922 0.673986 10.3507 1.16214 10.8388C1.6503 11.327 2.44175 11.327 2.92991 10.8388L10.001 3.76777L17.072 10.8388C17.5602 11.327 18.3517 11.327 18.8398 10.8388C19.328 10.3507 19.328 9.55922 18.8398 9.07107L10.8849 1.11612Z"
+                  fill="#777777"
+                />
+              </svg>
+            </button>
+            <div className="logos-home-container">
+              <img className="telegarm" src={telegram} alt="telegarm" />
+              <p className="tele1">Telegram</p>
+              <img className="whatsapp" src={whatsapp} alt="whatsapp" />
+              <p className="whatsapp1">whatsapp</p>
+              <img className="chat" src={chat} alt="chat" />
+              <p className="chat1">Live chat</p>
+            </div>
+          </div>
+        )}
+
+        {isVisible2 ? (
+          <div className="home-page-div-2">
+            <img className="g2" src={g2} alt="g2" />
+            <p className="chat-text">Social</p>
+            <p className="loremd1">Lorem ipsum doolor sit amet</p>
+            <button
+              className="arrow-home-svg"
+              onClick={handleToggleVisibility2}
             >
-              <path
-                d="M7.30418 8.71165C7.69723 9.09963 8.33038 9.09551 8.71836 8.70245L15.0408 2.29721C15.4287 1.90415 15.4246 1.271 15.0316 0.883027C14.6385 0.495052 14.0054 0.499172 13.6174 0.892229L7.99746 6.58577L2.30392 0.96585C1.91086 0.577875 1.27771 0.581995 0.889736 0.975052C0.501761 1.36811 0.505881 2.00126 0.898938 2.38924L7.30418 8.71165ZM6.99367 6.00651L7.00669 8.00646L9.00665 7.99345L8.99363 5.99349L6.99367 6.00651Z"
-                fill="#777777"
-              />
-            </svg>
-          </button>
-        </div>
+              <svg
+                width="16"
+                height="9"
+                viewBox="0 0 16 9"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.30418 8.71165C7.69723 9.09963 8.33038 9.09551 8.71836 8.70245L15.0408 2.29721C15.4287 1.90415 15.4246 1.271 15.0316 0.883027C14.6385 0.495052 14.0054 0.499172 13.6174 0.892229L7.99746 6.58577L2.30392 0.96585C1.91086 0.577875 1.27771 0.581995 0.889736 0.975052C0.501761 1.36811 0.505881 2.00126 0.898938 2.38924L7.30418 8.71165ZM6.99367 6.00651L7.00669 8.00646L9.00665 7.99345L8.99363 5.99349L6.99367 6.00651Z"
+                  fill="#777777"
+                />
+              </svg>
+            </button>
+          </div>
+        ) : (
+          // Div content when hidden
+          <div className="home-page-div-2-hide">
+            <img className="g2" src={g2} alt="g2" />
+            <p className="chat-text">Social</p>
+            <p className="loremd1">Lorem ipsum doolor sit amet</p>
+            <button
+              className="arrow-home-svg"
+              onClick={handleToggleVisibility2}
+            >
+              <svg
+                width="20"
+                height="12"
+                viewBox="0 0 20 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.8849 1.11612C10.3967 0.627961 9.60525 0.627961 9.11709 1.11612L1.16214 9.07107C0.673986 9.55922 0.673986 10.3507 1.16214 10.8388C1.6503 11.327 2.44175 11.327 2.92991 10.8388L10.001 3.76777L17.072 10.8388C17.5602 11.327 18.3517 11.327 18.8398 10.8388C19.328 10.3507 19.328 9.55922 18.8398 9.07107L10.8849 1.11612Z"
+                  fill="#777777"
+                />
+              </svg>
+            </button>
+            <div className="logos-home2-container">
+              <img className="facebook" src={facebook} alt="facebook" />
+              <img className="insta" src={insta} alt="insta" />
+              <img className="twitter" src={twitter} alt="twitter" />
+              <img className="linkedin" src={linkedin} alt="linkedin" />
+            </div>
+          </div>
+        )}
+
+        {isVisible3 ? (
+          <div className="home-page-div-3">
+            <img className="v1" src={v1} alt="v1" />
+            <img className="v2" src={v2} alt="v2" />
+            <p className="chat-text">Send Query</p>
+            <p className="loremd1">Lorem ipsum doolor sit amet</p>
+            <button
+              className="arrow-home-svg"
+              onClick={handleToggleVisibility3}
+            >
+              <svg
+                width="16"
+                height="9"
+                viewBox="0 0 16 9"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.30418 8.71165C7.69723 9.09963 8.33038 9.09551 8.71836 8.70245L15.0408 2.29721C15.4287 1.90415 15.4246 1.271 15.0316 0.883027C14.6385 0.495052 14.0054 0.499172 13.6174 0.892229L7.99746 6.58577L2.30392 0.96585C1.91086 0.577875 1.27771 0.581995 0.889736 0.975052C0.501761 1.36811 0.505881 2.00126 0.898938 2.38924L7.30418 8.71165ZM6.99367 6.00651L7.00669 8.00646L9.00665 7.99345L8.99363 5.99349L6.99367 6.00651Z"
+                  fill="#777777"
+                />
+              </svg>
+            </button>
+          </div>
+        ) : (
+          // Div content when hidden
+          <div className="home-page-div-3-hide">
+            <img className="v1" src={v1} alt="v1" />
+            <img className="v2" src={v2} alt="v2" />
+            <p className="chat-text">Send Query</p>
+            <p className="loremd1">Lorem ipsum doolor sit amet</p>
+            <button
+              className="arrow-home-svg"
+              onClick={handleToggleVisibility3}
+            >
+              <svg
+                width="20"
+                height="12"
+                viewBox="0 0 20 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.8849 1.11612C10.3967 0.627961 9.60525 0.627961 9.11709 1.11612L1.16214 9.07107C0.673986 9.55922 0.673986 10.3507 1.16214 10.8388C1.6503 11.327 2.44175 11.327 2.92991 10.8388L10.001 3.76777L17.072 10.8388C17.5602 11.327 18.3517 11.327 18.8398 10.8388C19.328 10.3507 19.328 9.55922 18.8398 9.07107L10.8849 1.11612Z"
+                  fill="#777777"
+                />
+              </svg>
+            </button>
+            <div className="form-home-container">
+              <form>
+                <div className="form-top-div">
+                  <div className="lable-conatiner">
+                    <label>Name</label>
+                    <input type="text" />
+                  </div>
+                  <div className="lable-conatiner">
+                    <label>Email</label>
+                    <input type="email" />
+                  </div>
+                  <div className="lable-conatiner">
+                    <label>Subject</label>
+                    <input type="text" />
+                  </div>
+                  <div className="lable-conatiner">
+                    <label>Order no.</label>
+                    <input type="number" />
+                  </div>
+                </div>
+                <div className="form-bottom-div">
+                  <div className="lable-conatiner">
+                    <label>Your Query</label>
+                    <input className="long-input" type="number" />
+                  </div>
+                </div>
+                <button>
+                  <p>Submit</p>
+                </button>
+              </form>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
