@@ -1,0 +1,110 @@
+.booking-main-container {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.2rem;
+}
+.booking-request-content {
+  width: 1366px;
+  height: 768px;
+  background-color: #f2f2f2;
+}
+.booking-ellipse-round {
+  /* Ellipse 93 */
+
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 1200px;
+  top: 44px;
+  border-radius: 50%;
+  background: #004a85;
+}
+.u-text {
+  /* U */
+
+  position: absolute;
+  width: 9px;
+  height: 14px;
+  left: 1209px;
+  top: 40px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+}
+.uername-text {
+  /* Username */
+
+  position: absolute;
+  width: 53px;
+  height: 13px;
+  left: 1240px;
+  top: 40px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.04em;
+
+  color: #484848;
+}
+.a9-img {
+  /* Vector */
+
+  position: absolute;
+  right: 130px;
+
+  top: 6.8%;
+
+  /* border: 1px solid #484848; */
+  /* transform: matrix(0, -1, -1, 0, 0, 0); */
+}
+
+/* Group 125 */
+.arrow-div-booking {
+  position: absolute;
+  width: 22.14px;
+  height: 12.04px;
+  left: 150px;
+  top: 80px;
+}
+.requests-text {
+  /* Requests */
+
+  position: absolute;
+  width: 103px;
+  height: 29px;
+  left: 195px;
+  top: 53px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  letter-spacing: 0.04em;
+
+  color: #161616;
+}
+
+.middle-booking-container {
+  position: absolute;
+  top: 120px;
+  left: 150px;
+  width: 1160px;
+  height: 645px;
+  background-color: white;
+}

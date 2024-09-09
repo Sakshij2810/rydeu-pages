@@ -1,0 +1,97 @@
+.leftsidebar-main-container {
+  width: 85.27px;
+  height: 768px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* Navigation Bar */
+
+  width: 85.27px;
+  height: 768px;
+  position: relative;
+
+  background: linear-gradient(89.71deg, #004a85 0.11%, #004a85 133.79%);
+}
+.leftsidebar-main-container .r-logo {
+  /* Untitled-1 1 */
+
+  position: absolute;
+  width: 51.83px;
+  height: 51.17px;
+  left: 18.71px;
+  top: 7.37px;
+}
+.r135 {
+  /* Rectangle 135 */
+
+  position: absolute;
+  width: 4.15px;
+  height: 42.69px;
+  left: 0px;
+  top: 110.84px;
+
+  background: #ffffff;
+}
+.r227 {
+  /* Rectangle 227 */
+
+  position: absolute;
+  width: 81.12px;
+  height: 42.69px;
+  left: 4.15px;
+  top: 110.84px;
+
+  background: rgba(255, 255, 255, 0.06);
+}
+.bell-logo {
+  /* bell 1 */
+
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  left: 33.17px;
+  top: 123.69px;
+}
+.car-logo {
+  /* Group 37 */
+
+  position: absolute;
+  left: 32.17px;
+  top: 23.4%;
+}
+.police-logo {
+  /* Vector */
+
+  position: absolute;
+  width: 20px;
+  height: 19px;
+  left: 32.17px;
+  top: 296.79px;
+}
+.account-logo {
+  /* account 2 */
+
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  left: 31.17px;
+  top: 356.88px;
+}
+.bill-logo {
+  /* bill 2 */
+
+  position: absolute;
+  width: 20px;
+  height: 19px;
+  left: 32.17px;
+  top: 417.02px;
+}
+.car2-logo {
+  /* Group 3 */
+
+  position: absolute;
+  left: 32.17px;
+
+  top: 31.41%;
+}
