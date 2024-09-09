@@ -1,0 +1,261 @@
+.home-header-main-container {
+  width: 1367px;
+  height: 471px;
+  position: relative;
+}
+.home-header-main-container img {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.hhp1 {
+  /* Hello, how can we help you? */
+
+  position: absolute;
+  width: 527px;
+  height: 41px;
+  left: 420px;
+  top: 130px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0.02em;
+
+  color: #073a4d;
+}
+.hhp2 {
+  /* Find Travel guide, FAQ, chat, */
+
+  position: absolute;
+  width: 100%;
+  height: 24px;
+  left: 539px;
+  top: 200px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #484848;
+}
+.home-header-card-1 {
+  /* Rectangle 940 */
+
+  position: absolute;
+  width: 472px;
+  height: 117px;
+  left: 202px;
+  top: 363px;
+
+  background: #ffffff;
+  box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.21);
+  border-radius: 11px;
+}
+.home-header-card-2 {
+  /* Rectangle 941 */
+
+  position: absolute;
+  width: 472px;
+  height: 117px;
+  left: 693px;
+  top: 363px;
+
+  background: #ffffff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 11px;
+}
+.c1-img,
+.c2-img {
+  /* Group */
+
+  position: absolute;
+  left: 40px;
+
+  top: 27px;
+}
+.faq-home,
+.faq2-home {
+  /* FAQ */
+
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  left: 140px;
+  top: 15px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+
+  color: #484848;
+}
+.lorem1,
+.lorem2 {
+  /* Lorem ipsum doolor sit amet */
+
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  left: 140px;
+  top: 48px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #a8a8a8;
+}
+
+.home-page-div-1 {
+  /* Rectangle 943 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 963px;
+  height: 117px;
+  left: 202px;
+  top: 528px;
+
+  background: #ffffff;
+  border: 1.4px solid #efefef;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 11px;
+}
+.home-page-div-2 {
+  /* Rectangle 945 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 963px;
+  height: 117px;
+  left: 202px;
+  top: 684px;
+
+  background: #ffffff;
+  border: 1.4px solid #efefef;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 11px;
+}
+.home-page-div-3 {
+  /* Rectangle 944 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 963px;
+  height: 117px;
+  left: 202px;
+  top: 840px;
+
+  background: #ffffff;
+  border: 1.4px solid #efefef;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 11px;
+}
+.home-page-div-1 img {
+  /* Group */
+  width: 41px;
+  height: 35.53px;
+  position: absolute;
+  left: 45px;
+
+  top: 40px;
+}
+.home-page-div-2 img {
+  /* Group */
+
+  position: absolute;
+  left: 45px;
+
+  top: 40px;
+
+  width: 41px;
+  height: 37.81px;
+}
+.home-page-div-3 .v1 {
+  /* Group */
+
+  position: absolute;
+  left: 45px;
+
+  top: 55px;
+
+  width: 38px;
+  height: 24px;
+}
+.home-page-div-3 .v2 {
+  /* Vector */
+
+  position: absolute;
+  left: 55px;
+
+  top: 35px;
+
+  width: 16px;
+  height: 17px;
+}
+.chat-text {
+  /* Chat */
+
+  position: absolute;
+  width: 100%;
+  height: 22px;
+  left: 128px;
+  top: 10px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #484848;
+}
+.loremd1 {
+  /* Lorem ipsum doolor sit amet */
+
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  left: 128px;
+  top: 50px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #a8a8a8;
+}
+.arrow-home-svg {
+  /* Arrow 9 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  /* width: 2px;
+  height: 0px; */
+  left: 890px;
+  top: 45px;
+  background-color: transparent;
+  border: none;
+  /* transform: rotate(89.63deg); */
+  cursor: pointer;
+}

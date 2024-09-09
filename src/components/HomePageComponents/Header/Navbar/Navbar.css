@@ -1,0 +1,55 @@
+.navbar-main-conatiner {
+  position: absolute;
+  width: 1366px;
+  height: 78px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.16);
+}
+.np1 {
+  /* LOGO */
+
+  position: absolute;
+  width: 86px;
+  height: 36px;
+  left: 58px;
+  top: -8px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #fd2e5a;
+}
+.nav-item-3 {
+  /* Group 527 */
+
+  position: absolute;
+  width: 55px;
+  height: 18.06px;
+  left: 969px;
+  top: 24px;
+}
+
+.nav-item-4 {
+  /* Group 526 */
+
+  position: absolute;
+  width: 132px;
+  height: 16px;
+  left: 1062px;
+  top: 25px;
+}
+.nav-item-5 {
+  /* Group 525 */
+
+  position: absolute;
+  width: 82px;
+  height: 35px;
+  left: 1225px;
+  top: 16px;
+}

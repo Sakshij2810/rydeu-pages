@@ -1,0 +1,14 @@
+.home-page-content-container {
+  width: 100%;
+  height: 6038px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home-page-all-conetnt-div {
+  width: 1366px;
+  height: 6038px;
+  background-color: white;
+}
